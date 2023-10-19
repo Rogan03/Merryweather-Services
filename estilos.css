@@ -1,0 +1,137 @@
+/* Estilo para el header */
+header {
+  font-family: Arial, sans-serif;
+  background-color: #000;
+  /* Fondo negro */
+}
+
+/* Estilo para el contenedor del eslogan y el logo */
+.navbar-brand {
+  display: flex;
+  align-items: center; /* Alinea verticalmente los elementos del contenedor */
+}
+
+/* Estilo para el eslogan */
+.slogan {
+  color: #fff; /* Color del texto (blanco) */
+  margin-left: 10px; /* Agrega espacio entre el logo y el eslogan */
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif /* Fuente Arial o similar */
+}
+
+/* Estilo para el texto en el main */
+main {
+  font-family: Arial, sans-serif;
+  /* Fuente Arial o una fuente sans-serif similar */
+  color: #333;
+  /* Color del texto (puedes ajustar el color según tus preferencias) */
+}
+
+/* Estilo para el fondo del body */
+body {
+  background-color: #333; /* Gris oscuro para el fondo del cuerpo */
+  color: #fff; /* Color del texto (blanco) */
+  font-family: Arial, sans-serif; /* Fuente Arial o similar */
+}
+
+/* Estilo para el contenedor de la cuadrícula */
+.info-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between; /* Distribuye los elementos horizontalmente con espacio entre ellos */
+  padding: 20px; /* Agrega espacio alrededor del contenedor */
+}
+
+/* Estilo para los cuadros de información */
+.info-box {
+  flex-basis: calc(33.33% - 20px); /* Ancho máximo de 33.33% con espacio entre ellos */
+  background-color: #ffffff; /* Gris más claro para el fondo del cuadro de texto */
+  border: 2px solid #000;
+  padding: 20px; /* Agrega espacio alrededor del cuadro de texto */
+  margin-bottom: 20px;
+  box-sizing: border-box; /* Incluye el borde en el ancho total del cuadro */
+}
+
+/* Estilo para el número de contacto */
+.contact-info {
+  font-family: "Comic Sans MS", cursive;
+  font-size: 20px;
+  text-align: right;
+  color: #fd0000; /* Color del texto (rojo) */
+  margin-top: -25px; /* Añade margen superior para separar del eslogan */
+  margin-right: 10px;
+}
+
+/* Estilo para el texto que parpadea */
+.blink-text {
+  border: 2px solid transparent;
+  animation: blink 2s infinite; /* Animación parpadeante */
+}
+
+/* Definición de la animación */
+@keyframes blink {
+  0%, 100% {
+      border-color: transparent; /* Borde transparente al principio y al final */
+  }
+  50% {
+      border-color: white; /* Borde blanco en la mitad de la animación */
+  }
+}
+
+.formtitulo {
+  color: white;
+}
+
+.formulario {
+  background-color: white;
+  color: black;
+  border: 2px solid #ccc;
+  padding: 20px;
+  width: 800px;
+}
+
+.formulario input[type="text"],
+.formulario input[type="tel"] {
+  width: 100%;
+  padding: 3px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.formulario input[type="submit"] {
+  background-color: #ff0000;
+  color: white;
+  padding: 10px 20px;
+  border: 2px solid black; /* Borde negro */
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold; /* Letra en negrita */
+}
+
+
+/* Estilos para el botón "Volver Arriba" */
+#volver-arriba {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #ff0000;
+  color: white;
+  font-weight: bold; /* Texto en negrita */
+  padding: 10px 20px;
+  border: 2px solid black; /* Recuadro negro */
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none; /* Quita el subrayado del enlace */
+}
+
+#volver-arriba:hover {
+  background-color: #0056b3; /* Cambia el color de fondo al pasar el cursor */
+}
+
+
+
+
+
+
+
+
+
