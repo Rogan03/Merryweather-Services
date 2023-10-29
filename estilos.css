@@ -1,10 +1,19 @@
-/* @media query para pantallas de 768px o menos */
+/* @media query para dispositivos móviles */
 @media (max-width: 768px) {
+  /* Ajustar el tamaño de fuente */
   body {
-    background-color: lightgray;
     font-size: 14px;
   }
+  /* Reorganizar elementos o reducir el margen/espaciado */
+  .container {
+    padding: 10px;
+  }
+  /* Ocultar o modificar elementos no esenciales en pantallas pequeñas */
+  .sidebar {
+    display: none;
+  }
 }
+
 /* Estilo para el header */
 header {
   font-family: Arial, sans-serif;
