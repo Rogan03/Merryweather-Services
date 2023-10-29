@@ -1,3 +1,10 @@
+/* @media query para pantallas de 768px o menos */
+@media (max-width: 768px) {
+  body {
+    background-color: lightgray;
+    font-size: 14px;
+  }
+}
 /* Estilo para el header */
 header {
   font-family: Arial, sans-serif;
