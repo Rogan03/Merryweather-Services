@@ -21,19 +21,17 @@ infoBoxes.forEach(infoBox => {
   });
 });
 document.addEventListener('DOMContentLoaded', function () {
-
   const formulario = document.getElementById('miFormulario');
 
 
-  formulario.addEventListener('submit', function (event) {
-    event.preventDefault();
-
-
-
-
-    alert('Los datos han sido enviados al centro de contacto.');
-  });
+  if (formulario) {
+    formulario.addEventListener('submit', function (event) {
+      event.preventDefault();
+      alert('Los datos han sido enviados al centro de contacto.');
+    });
+  }
 });
+
 document.addEventListener('DOMContentLoaded', function () {
 
   const numeroTelefono = document.getElementById('numero-telefono');
@@ -43,4 +41,17 @@ document.addEventListener('DOMContentLoaded', function () {
     alert('Horarios de atención: Lun a Vie 09:00 - 18:00\n0800-333-4444 ó 0800-444-555');
   });
 });
+
+document.addEventListener('DOMContentLoaded', function () {
+  if (window.location.pathname.endsWith("index.html")) {
+    document.getElementById("irAOtroHtml").addEventListener("click", function () {
+      window.location.href = "index2.html";
+    });
+  }
+});
+
+
+
+
+
 

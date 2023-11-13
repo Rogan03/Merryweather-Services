@@ -1,0 +1,2 @@
+Merryweather Security Services es una empresa ficticia creada con el propósito de simular una web de una empresa de seguridad real para poner a prueba los conocimientos adquiridos a lo largo del curso de programación front end de BA Multiplica 2.0.
+Créditos a quien corresponda por la realización del logo que he utilizado en esta web (la he bajado de una página rusa y no decía quien es el autor).
