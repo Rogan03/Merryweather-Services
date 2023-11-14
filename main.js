@@ -38,16 +38,14 @@ document.addEventListener('DOMContentLoaded', function () {
 
 
   numeroTelefono.addEventListener('click', function () {
-    alert('Horarios de atención: Lun a Vie 09:00 - 18:00\n0800-333-4444 ó 0800-444-555');
+    alert('Horarios de atención: Lun a Vie 09:00 - 18:00\n0800-333-4444 / 0800-444-5555');
   });
 });
 
 document.addEventListener('DOMContentLoaded', function () {
-  if (window.location.pathname.endsWith("index.html")) {
     document.getElementById("irAOtroHtml").addEventListener("click", function () {
       window.location.href = "index2.html";
     });
-  }
 });
 
 
