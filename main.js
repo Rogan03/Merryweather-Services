@@ -43,9 +43,11 @@ document.addEventListener('DOMContentLoaded', function () {
 });
 
 document.addEventListener('DOMContentLoaded', function () {
+  if (window.location.pathname.endsWith("index.html")) {
     document.getElementById("irAOtroHtml").addEventListener("click", function () {
       window.location.href = "index2.html";
     });
+  }
 });
 
 
